@@ -10,3 +10,18 @@
 h1 {
   color: #F55800;
 }
+.col-8{
+}
+.work-profile{
+  min-height: 870px;
+}
+.col-7 img{
+  width: 100%;
+}
+.work-btn{
+  background-color: #F55800;
+}
+.border{
+  border: 2px solid #000;
+  align-items: center;
+  }
