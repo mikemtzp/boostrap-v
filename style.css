@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  align-items: center;
+  height: 870px;
+  background: #1c1a19 url(/img/illustration-desk.png) 100% 100% no-repeat;
+}
+
+h1 {
+  color: #f55800;
+}
+
+.work-profile {
+  min-height: 1600px;
+}
+
+.col-7 img {
+  width: 100%;
+}
+
+.work-btn {
+  background-color: #f55800;
+}
+
+.border {
+  border: 2px solid #000;
+  align-items: center;
+}
+
+.project-btn {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 5px 5px;
+}

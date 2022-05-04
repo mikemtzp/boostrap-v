@@ -5,8 +5,252 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boostrap Version</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mike Martinez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <img src="/img/mail.png" alt="Send an email">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-1 justify-content-center">
+            <ul class="nav flex-column justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img src="/img/github.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="/img/linkedin.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="/img/angellist.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="/img/twitter.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1">
+                  <img src="/img/medium.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-4">
+            <h1> Hey there, I'm Mike</h1>
+            <div class="text-white">
+              <h2>I'm a software developer</h2>
+              <p>I can help you build a product, feature or website Look through some of my work and experience! 
+              If you like what you see and have a project you need coded, 
+              don’t hestiate to contact me.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-profile">
+      <div class="container mt-5">
+        <div class="row mb-5">
+          <div class="col-3">
+            <h2> My Recent Works </h2>
+          </div>
+
+          <div class="col-9">
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-7 img-fluid">
+          <img src="./img/cards/Img_Placeholder.svg" alt="image">
+
+        </div>
+        <div class="col-5 ">
+          <h3>Multi-Post Stories</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+
+          <ul class="nav">
+            <li class="nav-item border">
+              <a class="nav-link text-dark" href="#"><span class="badge bg-light text-dark">css</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="border nav-link text-dark" href="#"><span class="badge bg-light text-dark ">html</span></a>
+            </li>
+            <li class="border nav-item">
+              <a class="nav-link" href="#"><span class="badge bg-light text-dark">bootstrap</span></a>
+            </li>
+            <li class="nav-item border">
+              <a class="nav-link text-dark" href="#"><span class="badge bg-light text-dark ">Ruby</span></a>
+            </li>
+          </ul>
+          <button type="button" class="work-btn btn btn-danger mt-5">See Project</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row mt-4 mb-2 gx-4">
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="/img/cards/Img_Placeholder_2.svg" class="card-img" alt="first project">
+              <div class="card-img-overlay">
+                <div class="d-grid">
+                  <button class="work-btn btn btn-danger" type="button">See project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="img/cards/Img_Placeholder_3.svg" class="card-img" alt="second project">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Data Dashboard Healthcare</h5>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">html</span></a>
+                  </li>
+                  <li class=" nav-item">
+                    <a class="nav-link" href="#"><span class="project-btn">bootstrap</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">Ruby</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="img/cards/Img_Placeholder_4.svg" class="card-img" alt="third project">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Website Portfolio</h5>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">html</span></a>
+                  </li>
+                  <li class=" nav-item">
+                    <a class="nav-link" href="#"><span class="project-btn">bootstrap</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">Ruby</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 mb-2 gx-4">
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="/img/cards/Img_Placeholder_5.svg" class="card-img" alt="forth project">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Profesional Art Printing Data More</h5>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">html</span></a>
+                  </li>
+                  <li class=" nav-item">
+                    <a class="nav-link" href="#"><span class="project-btn">bootstrap</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">Ruby</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="img/cards/Img_Placeholder_3.svg" class="card-img" alt="fifth project">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Data Dashboard Healthcare</h5>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">html</span></a>
+                  </li>
+                  <li class=" nav-item">
+                    <a class="nav-link" href="#"><span class="project-btn">bootstrap</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">Ruby</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card bg-dark text-white">
+              <img src="img/cards/Img_Placeholder_4.svg" class="card-img" alt="sixth project">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Website Portfolio</h5>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">html</span></a>
+                  </li>
+                  <li class=" nav-item">
+                    <a class="nav-link" href="#"><span class="project-btn">bootstrap</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#"><span class="project-btn">Ruby</span></a>
+                  </li>
+                </ul>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
