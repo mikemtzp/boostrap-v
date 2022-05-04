@@ -1,0 +1,12 @@
+
+
+.home {
+  display: flex;
+  align-items: center;
+  height: 870px;
+  background: #1C1A19 url(/img/illustration-desk.png) 100% 100% no-repeat;
+}
+
+h1 {
+  color: #F55800;
+}
