@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   height: 870px;
-  background: #1C1A19 url(/img/illustration-desk.png) 100% 100% no-repeat;
+  background: #1c1a19 url(/img/illustration-desk.png) 100% 100% no-repeat;
 }
 
 h1 {
-  color: #F55800;
+  color: #f55800;
 }
 
 .work-profile {
@@ -18,13 +18,13 @@ h1 {
 }
 
 .work-btn {
-  background-color: #F55800;
+  background-color: #f55800;
 }
 
 .border {
   border: 2px solid #000;
   align-items: center;
-  }
+}
 
 .project-btn {
   color: #fff;
